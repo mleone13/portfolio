@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/style.css" />
     <meta charset="UTF-8" />
     <title>Mary Leone Portfolio</title>
@@ -41,16 +42,15 @@
         <img src="assets/images/IMG_1679.jpg" alt="Mary Downhill Skiing" />
       </div>
       <!--About me section-->
-
       <section id="about-me">
-        <div>
+        <div class="about-me">
           <h2>About Me</h2>
           <p>
             Hello! <br />
-            Welcome to my portfolio. I am currently taking a coding bootcamp
-            through Michigan State University to advance my career.
+            Welcome to my portfolio. I am currently enrolled in a coding
+            bootcamp through Michigan State University to advance my career.
             <br />
-            Along with coding, I enjoy being outdoors exploring new places and
+            Along with coding, I enjoy being outdoors, exploring new places and
             meeting new people. <br />
             Please reach out if you have any questions on my work. <br />
             Thank you!
@@ -64,56 +64,71 @@
       <h2>My Work</h2>
       <div class="project1">
         <h3>Run Buddy Website</h3>
-        <img src="assets/images/run-buddy.png" alt="Run Buddy Page" />
+        <a href="file:///C:/Users/mleone/Desktop/projects/run-buddy/index.html">
+          <img src="assets/images/run-buddy.png" alt="Run Buddy Page" />
+        </a>
       </div>
       <div class="row">
         <div class="column">
           <h3>Misc. Project 2</h3>
-          <img src="assets/images/balloons.avif" alt="Balloon Picture" />
+          <img
+            src="assets/images/balloons.avif"
+            alt="Balloon Picture"
+            style="width: 75%"
+          />
         </div>
         <div class="column">
           <h3>Misc. Project 3</h3>
-          <img src="assets/images/dog.avif" alt="Dog Picture" />
+          <img
+            src="assets/images/dog.avif"
+            alt="Dog Picture"
+            style="width: 50%"
+          />
         </div>
       </div>
     </section>
 
     <!--Resume section-->
     <section id="resume">
-      <h2>Resume</h2>
-      <p>
-        <a href="file:///C:/Users/mleone/OneDrive%20-%20Knex/M.L%20Resume.pdf"
-          >Click Here</a
-        >
-      </p>
+      <div class="resume">
+        <h2>Resume</h2>
+        <p>
+          <a href="file:///C:/Users/mleone/OneDrive%20-%20Knex/M.L%20Resume.pdf"
+            >Click Here</a
+          >
+        </p>
+      </div>
     </section>
 
     <!--Contact section-->
     <section id="contact-me">
-      <h2>Contact Me</h2>
+      <div class="contact-me">
+        <h2>Contact Me</h2>
 
-      <div class="contact-info">
-        <p>Find me on the slopes!</p>
+        <div class="contact-info">
+          <p>Find me on the slopes!</p>
+          <br />
 
-        <address>
-          Phone: 586.859.1715 <br />
-          Email:
-          <a href="mailto:marykleone@gmail.com">Marykleone@gmail.com</a>
-        </address>
-      </div>
-
-      <div class="contact-img">
-        <video width="320" height="240" controls>
-          <source src="movie.mp4" type="video/mp4" />
-          <source
-            src="assets/images/ski video.3gp"
-            type="video/ogg"
-            alt="slowest"
-            skiier
-            ever
-          />
-          Your browser does not support the video tag.
-        </video>
+          <address>
+            Phone: 586.859.1715 <br />
+            Email:
+            <a href="mailto:marykleone@gmail.com">Marykleone@gmail.com</a>
+          </address>
+        </div>
+        <br />
+        <div class="contact-img">
+          <video width="320" height="240" controls>
+            <source src="movie.mp4" type="video/mp4" />
+            <source
+              src="assets/images/ski video.3gp"
+              type="video/ogg"
+              alt="slowest"
+              skiier
+              ever
+            />
+            Your browser does not support the video tag.
+          </video>
+        </div>
       </div>
     </section>
 
