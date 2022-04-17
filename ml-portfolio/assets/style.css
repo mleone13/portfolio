@@ -33,3 +33,7 @@ header {
   display: flex;
   justify-content: space-between;
 }
+
+.contact-img img {
+  border-radius: 50px;
+}
