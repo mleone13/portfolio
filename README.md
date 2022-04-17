@@ -1,15 +1,15 @@
-#My Portfolio
+# My Portfolio
 
-##Purpose
+## Purpose
 A website that shows my work, contact information and resume.
 
-##Built with
+## Built with
 HTML
 CSS
 
-##Website
+## Website
 
 
-##Contribution
+## Contribution
 Made with ❤️ by Mary Leone
 
