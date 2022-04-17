@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #000103;
+  --primary-color: #ebedf1;
   --secondary-color: #083955;
   --tertiary-color: #6496c5;
 }
@@ -11,16 +11,6 @@
   background-color: var(--tertiary-color);
 }
 
-header {
-  color: var(--primary-color);
-}
-
-.headshot img {
-  height: auto;
-  width: 400px;
-  border-radius: 5px;
-}
-
 body {
   color: var(--secondary-color);
   font-family: Rocket Sans, Arial, Tahoma;
@@ -29,11 +19,65 @@ body {
 /*Header Style*/
 
 header {
-  flex-wrap: wrap;
-  display: flex;
-  justify-content: space-between;
+  background-color: rgb(15, 2, 51);
+  padding: 15px;
+  margin: 6px, 0, 0, 0;
 }
 
-.contact-img img {
-  border-radius: 50px;
+header h1 {
+  color: var(--primary-color);
+  font-size: 60px;
+  font-weight: bold;
+  margin: 25px;
+  display: inline;
 }
+
+nav {
+  float: right;
+  margin: 0px 0px;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0px 0px;
+  font-weight: lighter;
+  font-size: 22px;
+  padding: 7px;
+}
+
+.headshot img {
+  height: auto;
+  width: 40%;
+  border-radius: 5px;
+  margin: 6px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2 {
+  color: var(--primary-color);
+  font-size: 30px;
+  font-weight: bold;
+  width: 20%;
+  border-bottom: 2px solid var(--primary-color);
+}
+
+/*About Me Style*/
+
+.project1 img {
+  width: 100%;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+/*My Work Style*/
+
+/*Footer Style*/
