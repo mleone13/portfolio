@@ -6,59 +6,99 @@
     <title>Mary Leone Portfolio</title>
   </head>
 
+  <!--Navigation-->
+  <nav>
+    <!--Unordered list element-->
+    <ul>
+      <!--List item element-->
+      <li>
+        <a href="#about-me">About Me</a>
+      </li>
+      <li>
+        <a href="#my-work">My Work</a>
+      </li>
+      <li>
+        <a href="#resume">Resume</a>
+      </li>
+      <li>
+        <a href="#contact-me">Contact Me</a>
+      </li>
+    </ul>
+  </nav>
+
+  <!--Header section-->
+
   <body>
-    <!--Navigation-->
     <header>
       <h1>
         <a href="https://www.linkedin.com/in/mary-leone-399b56b2/"
           >Mary Leone</a
         >
       </h1>
-      <nav>
-        <!--Unordered list element-->
-        <ul>
-          <!--List item element-->
-          <li>
-            <a href="#about-me">About Me</a>
-          </li>
-          <li>
-            <a href="#my-work">My Work</a>
-          </li>
-          <li>
-            <a href="#resume">Resume</a>
-          </li>
-          <li>
-            <a href="#contact-me">Conact Me</a>
-          </li>
-        </ul>
-      </nav>
     </header>
 
-    <img src="assets/images/skiing pic.jpg" alt="Mary XC Skiing" />
-    <img src="assets/images/hiking pic.jpg" alt="Mary Hiking" />
+    <section class="bio">
+      <div class="headshot">
+        <img src="assets/images/IMG_1679.jpg" alt="Mary Downhill Skiing" />
+      </div>
+      <!--About me section-->
 
-    <video width="320" height="240" controls>
-      <source src="movie.mp4" type="video/mp4" />
-      <source
-        src="assets/images/ski video.3gp"
-        type="video/ogg"
-        alt="slowest"
-        skiier
-        ever
-      />
-      Your browser does not support the video tag.
-    </video>
-
-    <!--About me section-->
-    <div>
-      <h2>"About Me"</h2>
-      <p>Hello</p>
-    </div>
+      <section id="about-me">
+        <div>
+          <h2>About Me</h2>
+          <p>
+            Hello! Welcome to my portfolio. I am currently taking a coding
+            bootcamp through Michigan State University to advance my career.
+            <br />
+            Along with coding, I enjoy being outdoors to find new places and
+            meet new people. <br />
+            Please reach out if you have any questions on my work. Thank you!
+          </p>
+        </div>
+      </section>
+    </section>
 
     <!--My work section-->
+    <section id="my-work">
+      <h2>My Work</h2>
+    </section>
 
     <!--Resume section-->
+    <section id="resume">
+      <h2>Resume</h2>
+    </section>
 
     <!--Contact section-->
+    <section id="contact-me">
+      <h2>Contact Me</h2>
+
+      <div class="contact-info">
+        <p>Find me on the slopes!</p>
+
+        <address>
+          Phone: 586.859.1715 <br />
+          Email:
+          <a href="mailto:marykleone@gmail.com">Marykleone@gmail.com</a>
+        </address>
+      </div>
+
+      <div class="contact-img">
+        <video width="320" height="240" controls>
+          <source src="movie.mp4" type="video/mp4" />
+          <source
+            src="assets/images/ski video.3gp"
+            type="video/ogg"
+            alt="slowest"
+            skiier
+            ever
+          />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </section>
+
+    <footer>
+      <div></div>
+    </footer>
   </body>
 </html>

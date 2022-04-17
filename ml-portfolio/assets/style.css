@@ -1,0 +1,35 @@
+:root {
+  --primary-color: #000103;
+  --secondary-color: #083955;
+  --tertiary-color: #6496c5;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--tertiary-color);
+}
+
+header {
+  color: var(--primary-color);
+}
+
+.headshot img {
+  height: auto;
+  width: 400px;
+  border-radius: 5px;
+}
+
+body {
+  color: var(--secondary-color);
+  font-family: Rocket Sans, Arial, Tahoma;
+}
+
+/*Header Style*/
+
+header {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+}
