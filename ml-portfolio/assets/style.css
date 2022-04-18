@@ -34,12 +34,10 @@ header h1 {
 
 nav {
   float: right;
-  margin: 0px 0px;
 }
 
 nav ul li {
   display: inline;
-  margin: 0px 0px;
   font-weight: lighter;
   font-size: 22px;
   padding: 7px;
@@ -62,7 +60,7 @@ h2 {
   font-weight: bold;
   width: 30%;
   border-bottom: 2px solid var(--primary-color);
-  margin: 0 0 15px 529px;
+  margin: 10px auto;
   text-align: center;
 }
 
@@ -85,8 +83,7 @@ h2 {
 }
 
 .column {
-  flex: 33.33%;
-  padding: 5px;
+  width: 50%;
 }
 
 /*Resume Style*/
@@ -111,12 +108,78 @@ footer {
 /*Media Queries*/
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
+  header h1 {
+    font-size: 60px;
+    margin: 25px auto;
+  }
+
+  nav ul li {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  .about-me {
+    font-size: 17;
+    margin: auto;
+    padding: 20px;
+  }
+
+  h3 {
+    font-size: 35px;
+  }
 }
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) {
+  header h1 {
+    font-size: 50px;
+    margin: 25px auto;
+  }
+
+  nav ul li {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  .about-me {
+    font-size: 15px;
+    margin: auto;
+    padding: 20px;
+  }
+
+  h3 {
+    font-size: 25px;
+  }
 }
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
+  header h1 {
+    font-size: 40px;
+    margin: 25px auto;
+  }
+
+  nav ul li {
+    font-size: 10px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  .about-me {
+    font-size: 12px;
+    margin: auto;
+    padding: 20px;
+  }
+
+  h3 {
+    font-size: 15px;
+  }
 }
